@@ -1,7 +1,5 @@
 **&#x1F4CC; This branch was made specifically to scrape the dictionary for ideoms and proverbs &#x1F4CC;**
 
-<br>
-
 # KLED-Scraper
 
 ## Motivation
