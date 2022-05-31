@@ -12,6 +12,7 @@ const (
 	localCertFile = "../bundle.cer"
 )
 
+// Create a http client
 func createClient() (client *http.Client, err error) {
 	cert, err := ioutil.ReadFile(localCertFile)
 	if err != nil {
