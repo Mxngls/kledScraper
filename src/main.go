@@ -32,7 +32,7 @@ func main() {
 	}
 
 	// Read the word ids
-	data, _ := ioutil.ReadFile("dict/wordIDs.json")
+	data, _ := ioutil.ReadFile("dict/WordIDs_Ideoms.json")
 	err = json.Unmarshal(data, &idArr)
 	if err != nil {
 		panic(err)
@@ -40,13 +40,13 @@ func main() {
 
 	// Open the file where to save our dictionary entries
 	// If no such file exits yet create one
-	f, err := os.OpenFile("dict/dict_test_small.json", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
+	f, err := os.OpenFile("dict/dict_test_Ideoms.json", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	// Create an initial slice to append to
-	initArr := &[]Result{}
+	initArr := &Result{}
 
 	// Set the number of goroutines that should be run
 	start := 0
@@ -61,7 +61,7 @@ func main() {
 	for {
 
 		// Iinitialize the slice for the current loop
-		var arr = &[]Result{}
+		var arr = &Result{}
 
 		// Set the end point of the last loop the the number of word ids
 		if end > len(idArr) {
@@ -75,13 +75,16 @@ func main() {
 			id := string(idArr[i])
 			time.Sleep(time.Millisecond * 20)
 			go getView(id, c, client)
+			if err != nil {
+				panic(err)
+			}
 
 			fmt.Printf("\rFetched and parsed %d from %d entries; running...", i+1, len(idArr))
 		}
 
 		// Store the fetched and parsed response bodies to file
 		for i := start; i < end; i++ {
-			*arr = append(*arr, <-c)
+			*arr = append(*arr, <-c...)
 		}
 
 		// Concatenate the initial slice and the slice with the results of the current loop
@@ -98,7 +101,7 @@ func main() {
 			}
 			f.Close()
 
-			fmt.Printf("\rWrote %d from %d entries to file: 'dict_test_small.JSON'; finished", len(*initArr), len(idArr))
+			fmt.Printf("\rWrote %d from %d entries to file: 'dict_test_Ideoms.json'; finished", len(*initArr), len(idArr))
 
 			break
 		}

@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"fmt"
 	"io"
 	"net/http"
 )
@@ -21,6 +22,7 @@ func getView(id string, channel chan Result, client *http.Client) (err error) {
 
 	data, err := ParseView(reader, id, "6")
 	if err != nil {
+		fmt.Println(id)
 		panic(err)
 	}
 

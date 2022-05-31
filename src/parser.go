@@ -1,119 +1,81 @@
 package main
 
 import (
-	"fmt"
 	"io"
-	"regexp"
 	"strconv"
-	"strings"
 
 	"golang.org/x/net/html"
 )
 
 func ParseView(result_html io.Reader, id string, l string) (res Result, err error) {
 	var r Result
-	r.Id = fmt.Sprintf("%s", id)
 	doc, err := html.Parse(result_html)
-	dfsv(doc, &r, l)
+	dfsv(doc, &r, l, id)
 	return r, err
 }
 
-func dfsv(n *html.Node, in *Result, l string) *html.Node {
+func dfsv(n *html.Node, in *Result, l string, id string) {
+
+	// Create a senses variable for readability
+	senses := (*in)[len(*in)-1].Senses
+
 	// Get the Hangul
 	if CheckClass(n, "word_head") {
+
+		// Append to array
+		*in = append(*in, Ideom{})
+
 		for c := n.FirstChild; c != nil; c = c.NextSibling {
 			if c != nil {
 				if c.Type == html.TextNode {
-					in.Hangul = c.Data
+					(*in)[len(*in)-1].Word = c.Data
 				} else if c.Type == html.ElementNode {
-					in.HomonymNumber, _ = strconv.Atoi(GetTextAll(c))
+					(*in)[len(*in)-1].HomonymNumber, _ = strconv.Atoi(GetTextAll(c))
 					break
 				}
 			}
 		}
-		// Get the Hanja
-	} else if CheckClass(n, "chi_info ml5") {
-		hanja := MatchBetween(GetTextAll(n), "(", " )")
-		in.Hanja = hanja
 
-	} else if CheckClass(n, "search_sub") {
-		// Get the pronounciation and audio file
-		for c := n.FirstChild; c != nil; c = c.NextSibling {
-			if c.Type == html.TextNode && strings.TrimSpace(c.Data) != "" && c.Data[0:1] == "[" {
-				in.Pronounciation = strings.TrimSpace(c.Data) + "]"
-			} else if c.Data == "a" && c.Attr[1].Val == "sound" {
-				for _, a := range c.Attr {
-					if a.Key == "href" {
-						in.Audio = MatchBetween(a.Val, "'", "');")
-						break
-					}
-				}
-				break
-			}
-		}
+		// Get the ideom itself and its type
+	} else if CheckClass(n, "idiom_title printArea") {
 
-	} else if CheckClass(n, "word_att_type1") {
-		// Get the Korean word type
-		match := MatchBetween(GetTextAll(n.FirstChild), "「", "」")
-		in.TypeKr = strings.ToValidUTF8(match, "")
+		// Set the id for future reference
+		(*in)[len(*in)-1].Id, _ = strconv.Atoi(id)
+		(*in)[len(*in)-1].Hangul = GetTextAll(n.LastChild.PrevSibling)
+		getType(n, *in, l)
 
-	} else if CheckClass(n, fmt.Sprintf("manyLang%s ml5", l)) {
-		// Get the English word type
-		in.TypeEng = strings.TrimSpace(GetTextSingle(n.FirstChild))
+	} else if CheckClass(n, "explain_list") && CheckClass(n.Parent, "explain_list_wrap") {
+		// Initialize a slice to store the sense information in
 
-	} else if CheckClass(n, "ri-star-s-fill") {
-		// Get the level of the word
-		in.Level++
+		// Append a slice to the senses array
+		senses = append(
+			senses, sense{})
 
-	} else if CheckClass(n, "printArea") {
-		// Get the Inflections
-		in.Inflections = (GetTextSingle(n))
-		inf := InitInflectionLinks()
-		ind := 0
-		for c := n.FirstChild; c != nil; c = c.NextSibling {
-			if c.Data == "a" {
-				in.InflectionLinks = append(in.InflectionLinks, inf)
-				re := regexp.MustCompile("[0-9]+")
-				id := c.Attr[1].Val
-				id = re.FindAllString(id, -1)[0]
-				in.InflectionLinks[ind].Id = id
-				in.InflectionLinks[ind].Hangul = GetTextSingle(c) + "<sup>" + GetTextSingle(c.NextSibling) + "</sup>"
-				ind++
-			}
-		}
+	} else if CheckClass(n, "subMultiTrans manyLang6 mb10 printArea") {
+		// Get the translation
+		senses[len(senses)-1].Translation = cleanStringSpecial([]byte(GetTextAll(n)))
 
-	} else if CheckClass(n, fmt.Sprintf("multiTrans manyLang%s mb10 printArea", l)) {
-		// Get the english translation
-		s := InitSense()
-		in.Senses = append(in.Senses, s)
-		l := len(in.Senses)
-		in.Senses[l-1].Translation = cleanStringSpecial([]byte(GetTextAll(n)))
+	} else if CheckClass(n, "subSenseDef ml20 printArea") {
+		// Get the Korean definition
+		senses[len(senses)-1].KrDefinition = GetTextAll(n)
 
-	} else if CheckClass(n, "senseDef ml20 printArea") {
-		// Get the korean definition
-		l := len(in.Senses)
-		in.Senses[l-1].KrDefinition = GetTextSingle(n.LastChild)
+	} else if CheckClass(n, "subMultiSenseDef manyLang6 ml20 printArea") {
+		// Get the definition
+		senses[len(senses)-1].Definition = GetTextAll(n)
 
-	} else if CheckClass(n, fmt.Sprintf("multiSenseDef manyLang%s ml20 printArea", l)) {
-		// Get the english definition
-		in.Senses[len(in.Senses)-1].Definition = GetTextAll(n)
-		if n.NextSibling.NextSibling == nil {
-		}
+	} else if CheckClass(n, "dot printArea") &&
+		CheckClass(n.PrevSibling.PrevSibling, "subMultiSenseDef manyLang6 ml20 printArea") &&
+		n.FirstChild.NextSibling != nil {
+		// Get the example
+		senses[len(senses)-1].Example = GetContent(n.FirstChild.NextSibling, "b")
 
-	} else if CheckClass(n, "dot") || CheckClass(n, "dot printArea") {
-		// Get the examples
-		for c := n.FirstChild; c != nil; c = c.NextSibling {
-			if c.Data == "li" {
-				ex := GetContent(c, "b")
-				in.Senses[len(in.Senses)-1].Examples = append(in.Senses[len(in.Senses)-1].Examples, ex)
-			} else if c.Parent.Data != "ul" && c.Parent.Data != "li" {
-				break
-			}
-		}
-
-	} else if CheckClass(n, "heading_wrap printArea") {
-		getRef(n, in, l)
+	} else if CheckClass(n, "heading_wrap dotted printArea") {
+		// Get references
+		getRef(n, *in, l)
 	}
+
+	// Write to input
+	(*in)[len(*in)-1].Senses = senses
 
 	// Traverse the tree of nodes vi depth-first search
 	for c := n.FirstChild; c != nil; c = c.NextSibling {
@@ -121,8 +83,7 @@ func dfsv(n *html.Node, in *Result, l string) *html.Node {
 		if c.Type == html.CommentNode || c.Data == "script" {
 			continue
 		} else {
-			dfsv(c, in, l)
+			dfsv(c, in, l, id)
 		}
 	}
-	return n
 }

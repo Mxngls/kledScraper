@@ -8,32 +8,44 @@ import (
 	"golang.org/x/net/html"
 )
 
-func getRef(c *html.Node, in *Result, l string) {
-	var ref struct {
-		Type  string
-		Value string
-		Id    string
-	}
-	r := len(in.Senses[len(in.Senses)-1].Reference) - 1
+func getRef(c *html.Node, in Result, l string) {
+
+	// Create a refs variable for readability
+	refs := in[len(in)-1].Senses[len(in[len(in)-1].Senses)-1].References
+
 	if c.Data == "dl" {
-		in.Senses[len(in.Senses)-1].Reference = append(in.Senses[len(in.Senses)-1].Reference, ref)
+		refs = append(refs, reference{})
 
 	} else if CheckClass(c, fmt.Sprintf("manyLang%s", l)) && c.Data == "span" {
-		in.Senses[len(in.Senses)-1].Reference[r].Type = strings.TrimSpace(c.FirstChild.Data)
+		// Get the type
+		refs[len(refs)-1].Type = strings.TrimSpace(c.FirstChild.Data)
 
 	} else if c.Data == "a" && CheckClass(c, "undL") {
+
+		// Needed for reference to other entries
+		refs[len(refs)-1].Values = append(refs[len(refs)-1].Values, value{})
+
 		re := regexp.MustCompile("[0-9]+")
 		id := c.Attr[0].Val
 		id = re.FindAllString(id, -1)[0]
-		in.Senses[len(in.Senses)-1].Reference[r].Id = id
-		in.Senses[len(in.Senses)-1].Reference[r].Value = GetContent(c.Parent, "sup")
 
-	} else if c.Data == "dd" && c.FirstChild.Type == html.TextNode {
-		in.Senses[len(in.Senses)-1].Reference[r].Value = strings.TrimSpace(c.FirstChild.Data)
+		// Set the id for future use
+		// Get the reference itself
+		refs[len(refs)-1].Values[len(refs[len(refs)-1].Values)-1].Id = id
+		refs[len(refs)-1].Values[len(refs[len(refs)-1].Values)-1].Hangul = c.FirstChild.Data
 
-	} else if c.Data == " 자세히 보기 끝 " {
+	} else if c.Data == "dd" {
+
+		// Simple usage reference
+		refs[len(refs)-1].Values = append(refs[len(refs)-1].Values, value{})
+		refs[len(refs)-1].Values[len(refs[len(refs)-1].Values)-1].Hangul = strings.TrimSpace(GetTextAll(c))
+
+	} else if c.Data == " //.explain_list " {
 		return
 	}
+
+	// Write to input
+	in[len(in)-1].Senses[len(in[len(in)-1].Senses)-1].References = refs
 
 	for e := c.FirstChild; e != nil; e = e.NextSibling {
 		// Skip all commment nodes or nodes whose type is "script"
