@@ -1,5 +1,9 @@
 # KLED-Scraper
 
+**&#x1F4CC; This branch was made specifically to scrape the dictionary for ideoms and proverbs &#x1F4CC;**
+
+---
+
 ## Motivation
 
 The abbreviation KLED stands for "Korean Learner's English Dictionary" which is based on [Korean Leaner's Dictionary](https://krdict.korean.go.kr/mainAction). The dictionary even provides an extensive API which can be used after registering account on their website.
