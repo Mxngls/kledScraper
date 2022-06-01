@@ -45,7 +45,15 @@ func GetContent(n *html.Node, tag string) (content string) {
 	} else if n.Data == "br" {
 		return "<" + "br" + ">"
 	} else if n.Type == html.TextNode {
-		return n.Data
+		text := []rune(n.Data)
+		var f string
+		var l string
+		if text[len(text)-1] == ' ' {
+			l = " "
+		} else if (text[0]) == ' ' {
+			f = " "
+		}
+		return f + strings.TrimSpace(n.Data) + l
 	}
 	for c := n.FirstChild; c != nil; c = c.NextSibling {
 		content += GetContent(c, tag)
