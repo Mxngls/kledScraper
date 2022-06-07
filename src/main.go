@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"sort"
 	"time"
 )
 
@@ -24,6 +25,8 @@ func JSONMarshal(t interface{}) ([]byte, error) {
 }
 
 func main() {
+
+	started := time.Now()
 
 	// Initiate the http client
 	client, err := createClient()
@@ -49,7 +52,7 @@ func main() {
 	initArr := &[]Result{}
 
 	// Set the number of goroutines that should be run
-	start := 0
+	start := 4200
 	end := start + 100
 
 	// Initiate Channel
@@ -74,7 +77,7 @@ func main() {
 		for i := start; i < end; i++ {
 			id := string(idArr[i])
 			time.Sleep(time.Millisecond * 20)
-			go getView(id, c, client)
+			go getView(i, id, c, client)
 
 			fmt.Printf("\rFetched and parsed %d from %d entries; running...", i+1, len(idArr))
 		}
@@ -83,6 +86,11 @@ func main() {
 		for i := start; i < end; i++ {
 			*arr = append(*arr, <-c)
 		}
+
+		// Sort the intermediate array according to its elements index
+		sort.SliceStable(*arr, func(i, j int) bool {
+			return (*arr)[i].Alpha < (*arr)[j].Alpha
+		})
 
 		// Concatenate the initial slice and the slice with the results of the current loop
 		*initArr = append(*initArr, *arr...)
@@ -100,6 +108,9 @@ func main() {
 
 			fmt.Printf("\rWrote %d from %d entries to file: 'dict_test_small.JSON'; finished", len(*initArr), len(idArr))
 
+			finished := time.Since(started)
+
+			fmt.Printf("Process took %d", finished)
 			break
 		}
 
