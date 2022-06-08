@@ -52,7 +52,7 @@ func main() {
 	initArr := &[]Result{}
 
 	// Set the number of goroutines that should be run
-	start := 4200
+	start := 0
 	end := start + 100
 
 	// Initiate Channel
