@@ -28,7 +28,11 @@ func createClient() (client *http.Client, err error) {
 		RootCAs: p,
 	}
 
-	tr := &http.Transport{TLSClientConfig: config}
+	tr := &http.Transport{
+		TLSClientConfig:     config,
+		MaxIdleConns:        100,
+		MaxIdleConnsPerHost: 100,
+	}
 	client = &http.Client{Transport: tr}
 	return client, err
 }
