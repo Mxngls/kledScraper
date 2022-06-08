@@ -76,7 +76,7 @@ func main() {
 		// a new goroutine is run
 		for i := start; i < end; i++ {
 			id := string(idArr[i])
-			time.Sleep(time.Millisecond * 20)
+			time.Sleep(time.Millisecond * 50)
 			go getView(i, id, c, client)
 
 			fmt.Printf("\rFetched and parsed %d from %d entries; running...", i+1, len(idArr))
