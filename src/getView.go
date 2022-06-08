@@ -6,9 +6,17 @@ import (
 	"net/http"
 )
 
+func recRequestView(id string, lang string, langCode string, client *http.Client) (resp *http.Response) {
+	resp, err := requestView(id, lang, langCode, client)
+	if err != nil {
+		resp = recRequestView(id, lang, langCode, client)
+	}
+	return resp
+}
+
 func getView(index int, id string, channel chan Result, client *http.Client) (err error) {
 
-	resp := requestView(id, "eng", "6", client)
+	resp := recRequestView(id, "eng", "6", client)
 
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
@@ -19,12 +27,10 @@ func getView(index int, id string, channel chan Result, client *http.Client) (er
 
 	reader := bytes.NewReader(body)
 
-	data, err := ParseView(reader, id, "6")
+	data, err := ParseView(reader, index, id, "6")
 	if err != nil {
 		panic(err)
 	}
-
-	data.Alpha = index
 
 	channel <- data
 
