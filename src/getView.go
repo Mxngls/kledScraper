@@ -27,7 +27,7 @@ func getView(index int, id string, channel chan Result, client *http.Client) (er
 
 	reader := bytes.NewReader(body)
 
-	data, err := ParseView(reader, index, id, "6")
+	data, err := ParseView(reader, id, "6")
 	if err != nil {
 		panic(err)
 	}
