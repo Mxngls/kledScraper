@@ -43,7 +43,7 @@ func main() {
 
 	// Open the file where to save our dictionary entries
 	// If no such file exits yet create one
-	f, err := os.OpenFile("dict/dict_test_small.json", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
+	f, err := os.OpenFile("dict/dict_FULL.json", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -106,7 +106,7 @@ func main() {
 			}
 			f.Close()
 
-			fmt.Printf("\rWrote %d from %d entries to file: 'dict_test_small.JSON'; finished", len(*initArr), len(idArr))
+			fmt.Printf("\rWrote %d from %d entries to file: 'dict_FULL.JSON'; finished", len(*initArr), len(idArr))
 
 			finished := time.Since(started)
 
