@@ -21,8 +21,13 @@ type sense struct {
 	Translation  string
 	Definition   string
 	KrDefinition string
-	Examples     []string
+	Examples     []example
 	Reference    []ref
+}
+
+type example struct {
+	Type  string
+	Value string
 }
 
 type ref struct {

@@ -67,7 +67,7 @@ func GetTextAll(n *html.Node) (text string) {
 		return n.Data
 	}
 	for c := n.FirstChild; c != nil; c = c.NextSibling {
-		text += GetTextAll(c) + " "
+		text += GetTextAll(c)
 	}
 	return strings.Join(strings.Fields(text), " ")
 }

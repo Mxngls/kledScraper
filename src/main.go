@@ -43,7 +43,7 @@ func main() {
 
 	// Open the file where to save our dictionary entries
 	// If no such file exits yet create one
-	f, err := os.OpenFile("dict/dict_FULL.json", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
+	f, err := os.OpenFile("dict/dict_FULL_TEST.json", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -76,7 +76,7 @@ func main() {
 		// a new goroutine is run
 		for i := start; i < end; i++ {
 			id := string(idArr[i])
-			time.Sleep(time.Millisecond * 50)
+			time.Sleep(time.Millisecond * 20)
 			go getView(i, id, c, client)
 
 			fmt.Printf("\rFetched and parsed %d from %d entries; running...", i+1, len(idArr))
