@@ -42,18 +42,18 @@ func main() {
 
 	// Open the file where to save our dictionary entries
 	// If no such file exits yet create one
-	f, err := os.OpenFile("dict/dict_FULL.json", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
+	f, err := os.OpenFile("dict/dict_FULL_TEST.json", os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	// f.WriteString("[")
+	f.WriteString("[")
 
 	// Create a custom JSON encoder
 	encoder := createEncoder(f)
 
 	// Set the number of goroutines that should be run
-	start := 5000
+	start := 0
 	end := start + 100
 
 	// Initiate Channel
@@ -107,7 +107,7 @@ func main() {
 
 			f.Close()
 
-			fmt.Printf("Wrote %d from %d entries to file: 'dict_FULL.JSON'; finished", currIndex, len(idArr))
+			fmt.Printf("\rWrote %d from %d entries to file: 'dict_FULL.JSON'; finished", currIndex, len(idArr))
 
 			break
 		}

@@ -102,9 +102,12 @@ func dfsv(n *html.Node, in *Result, l string) *html.Node {
 	} else if CheckClass(n, "dot") || CheckClass(n, "dot printArea") {
 		// Get the examples
 		for c := n.FirstChild; c != nil; c = c.NextSibling {
+			var ex example
 			if c.Data == "li" {
-				ex := GetContent(c, "b")
 				in.Senses[len(in.Senses)-1].Examples = append(in.Senses[len(in.Senses)-1].Examples, ex)
+				v := GetContent(c, "b")
+				in.Senses[len(in.Senses)-1].Examples[len(in.Senses[len(in.Senses)-1].Examples)-1].Value = v
+				in.Senses[len(in.Senses)-1].Examples[len(in.Senses[len(in.Senses)-1].Examples)-1].Type = GetTextAll(c)
 			} else if c.Parent.Data != "ul" && c.Parent.Data != "li" {
 				break
 			}
