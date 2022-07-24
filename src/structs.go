@@ -14,6 +14,7 @@ type Result struct {
 	Level           int
 	Inflections     string
 	InflectionLinks []inflectionLink
+	Proverbs        []proverb
 	Senses          []sense
 }
 
@@ -23,6 +24,11 @@ type sense struct {
 	KrDefinition string
 	Examples     []example
 	Reference    []ref
+}
+
+type proverb struct {
+	Hangul string
+	Senses []sense
 }
 
 type example struct {
@@ -43,6 +49,14 @@ type inflectionLink struct {
 
 func InitSense() sense {
 	return sense{}
+}
+
+func InitProverb() proverb {
+	return proverb{}
+}
+
+func InitRef() ref {
+	return ref{}
 }
 
 func InitInflectionLinks() inflectionLink {
