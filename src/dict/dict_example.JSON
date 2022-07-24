@@ -1,468 +1,1719 @@
 [
     {
-        "Id": "75385",
-        "Hangul": "조여들다",
-        "HomonymNumber": 0,
+        "Alpha": 0,
+        "Frequency": 0,
+        "Id": 27733,
+        "Hangul": "가",
+        "HomonymNumber": 1,
         "Hanja": "",
-        "TypeKr": "동사",
-        "TypeEng": "Verb",
-        "Pronounciation": "[조여들다]",
-        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20160913/50000/49000/330531/SND000339885.mp3",
-        "Level": 0,
-        "Inflections": "",
-        "InflectionLinks": null,
-        "Senses": [
-            {
-                "Translation": "be too tight",
-                "Definition": "To shrink by tightening inward.",
-                "KrDefinition": "안으로 바싹 조여서 오그라들다.",
-                "Examples": [
-                    "목이 <b>조여들다</b>.",
-                    "바지가 <b>조여들다</b>.",
-                    "발목이 <b>조여들다</b>.",
-                    "손목이 <b>조여들다</b>.",
-                    "허리가 <b>조여들다</b>.",
-                    "넥타이를 너무 꽉 매서 그런지 일을 하다 보니 목이 <b>조여들었다</b>.",
-                    "꽉 끼는 바지를 입고 밥을 많이 먹었더니 허리가 <b>조여들어</b> 불편했다.",
-                    "가: 왜 그래? 어디 불편해 보여.<br> 나: 아, 오랜만에 손목에 시계를 찼더니 괜히 <b>조여드는</b> 것 같고 영 불편하네.<br>"
-                ],
-                "Reference": [
-                    {
-                        "Type": "Sentence",
-                        "Value": "1이 조여들다",
-                        "Id": ""
-                    },
-                    {
-                        "Type": "Synonym",
-                        "Value": "죄어들다",
-                        "Id": "90806"
-                    }
-                ]
-            },
-            {
-                "Translation": "feel tight",
-                "Definition": "To feel increasingly nervous, uneasy, anxious, etc.",
-                "KrDefinition": "마음이 점점 긴장되거나 불안, 초조함 등의 감정이 점점 커지다.",
-                "Examples": [
-                    "<b>조여드는</b> 가슴.",
-                    "마음이 <b>조여들다</b>.",
-                    "심중이 <b>조여들다</b>.",
-                    "온몸이 <b>조여들다</b>.",
-                    "고통에 <b>조여들다</b>.",
-                    "긴장에 <b>조여들다</b>.",
-                    "친구에게 사과를 하려고 가는 동안 걱정에 마음이 <b>조여들었다</b>.",
-                    "회사 면접 순서를 기다리는 동안 온몸에 극도의 긴장에 가슴이 <b>조여들었다</b>.",
-                    "가: 아파하는 아이를 보고 있자니 고통에 가슴이 다 <b>조여드는</b> 것 같아요.<br> 나: 아이는 곧 나을 테니 너무 괴로워하지 마세요.<br>"
-                ],
-                "Reference": [
-                    {
-                        "Type": "Sentence",
-                        "Value": "1이 조여들다, 1이 2에 조여들다",
-                        "Id": ""
-                    },
-                    {
-                        "Type": "Synonym",
-                        "Value": "죄어들다",
-                        "Id": "90806"
-                    }
-                ]
-            },
-            {
-                "Translation": "close in on",
-                "Definition": "To narrow the range of something little by little.",
-                "KrDefinition": "어떤 것의 범위를 조금씩 좁혀 가다.",
-                "Examples": [
-                    "감시망을 <b>조여들다</b>.",
-                    "범위를 <b>조여들다</b>.",
-                    "수사망을 <b>조여들다</b>.",
-                    "호랑이는 점점 범위를 <b>조여들며</b> 사냥감을 잡을 기회를 노리고 있었다.",
-                    "경찰은 증거들을 가지고 수사망을 <b>조여들며</b> 범인을 잡아내기 위해 노력했다.",
-                    "가: 범인이 왜 갑자기 자수를 한 거래?<br> 나: 경찰이 수사망을 <b>조여드니까</b> 두려워서 자수를 했대.<br>"
-                ],
-                "Reference": [
-                    {
-                        "Type": "Sentence",
-                        "Value": "1이 2를 조여들다",
-                        "Id": ""
-                    },
-                    {
-                        "Type": "Synonym",
-                        "Value": "죄어들다",
-                        "Id": "90806"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Id": "75388",
-        "Hangul": "조연",
-        "HomonymNumber": 0,
-        "Hanja": "助演",
         "TypeKr": "명사",
         "TypeEng": "Noun",
-        "Pronounciation": "[조ː연]",
-        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20160913/10000/08000/330537/SND000339891.mp3",
+        "Pronounciation": "가ː",
+        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20160913/20000/17000/300622/SND000309976.mp3",
         "Level": 1,
         "Inflections": "",
         "InflectionLinks": null,
+        "Proverbs": null,
         "Senses": [
             {
-                "Translation": "supporting role; supporting actor; supporting actress",
-                "Definition": "In theater or film, the act of playing a supporting role to the lead character in the unfolding story, or an actor/actress playing such a role.",
-                "KrDefinition": "연극이나 영화에서 주인공을 도와 이야기를 전개해 나가는 역할을 함. 또는 그런 역할을 맡은 배우.",
+                "Translation": "by; fringe",
+                "Definition": "The surrounding area of a place.",
+                "KrDefinition": "’의 뜻을 나타내는 말.",
                 "Examples": [
-                    "<b>조연</b> 배우.",
-                    "<b>조연</b> 역할.",
-                    "<b>조연</b>의 연기.",
-                    "주연과 <b>조연</b>.",
-                    "<b>조연</b>을 맡다.",
-                    "<b>조연</b>으로 나오다.",
-                    "<b>조연</b>으로 데뷔하다.",
-                    "비록 어린 아이지만 중요한 <b>조연</b>의 역할을 훌륭해 해내는 모습이 기특했다.",
-                    "한 유명한 가수는 처음에 자신이 영화의 <b>조연</b>으로 데뷔를 했었다고 밝혔다.",
-                    "가: 옛날 영화를 보니까 지금 유명한 스타들이 <b>조연</b>으로 나오더라고.<br> 나: 처음에 연기를 시작할 때부터 주연이 되기는 힘드니까.<br>"
+                    {
+                        "Type": "가를 꾸미다.",
+                        "Value": "<b>가</b>를 꾸미다."
+                    },
+                    {
+                        "Type": "가를 장식하다.",
+                        "Value": "<b>가</b>를 장식하다."
+                    },
+                    {
+                        "Type": "가에 걸치다.",
+                        "Value": "<b>가</b>에 걸치다."
+                    },
+                    {
+                        "Type": "가에 달다.",
+                        "Value": "<b>가</b>에 달다."
+                    },
+                    {
+                        "Type": "가에 달라붙다.",
+                        "Value": "<b>가</b>에 달라붙다."
+                    },
+                    {
+                        "Type": "가에 세우다.",
+                        "Value": "<b>가</b>에 세우다."
+                    },
+                    {
+                        "Type": "가에 앉다.",
+                        "Value": "<b>가</b>에 앉다."
+                    },
+                    {
+                        "Type": "공원의 중앙에는 잔디밭이 있고 가에는 울타리가 둘러쳐져 있었다.",
+                        "Value": "공원의 중앙에는 잔디밭이 있고 <b>가</b>에는 울타리가 둘러쳐져 있었다."
+                    },
+                    {
+                        "Type": "민준이는 금방이라도 일어날 듯이 의자 가에 엉덩이만 살짝 걸치고 앉았다.",
+                        "Value": "민준이는 금방이라도 일어날 듯이 의자 <b>가</b>에 엉덩이만 살짝 걸치고 앉았다."
+                    },
+                    {
+                        "Type": "가: 차는 어디에 주차했어요? 나: 저기 운동장 가에 세워 뒀어요.",
+                        "Value": "가: 차는 어디에 주차했어요?<br>나: 저기 운동장 <b>가</b>에 세워 뒀어요.<br>"
+                    },
+                    {
+                        "Type": "강가.",
+                        "Value": "<b>강가</b>."
+                    },
+                    {
+                        "Type": "길가.",
+                        "Value": "<b>길가</b>."
+                    },
+                    {
+                        "Type": "냇가.",
+                        "Value": "<b>냇가</b>."
+                    },
+                    {
+                        "Type": "문가.",
+                        "Value": "<b>문가</b>."
+                    },
+                    {
+                        "Type": "시냇가.",
+                        "Value": "<b>시냇가</b>."
+                    },
+                    {
+                        "Type": "우물가.",
+                        "Value": "<b>우물가</b>."
+                    },
+                    {
+                        "Type": "창가.",
+                        "Value": "<b>창가</b>."
+                    },
+                    {
+                        "Type": "창문가.",
+                        "Value": "<b>창문가</b>."
+                    },
+                    {
+                        "Type": "호숫가.",
+                        "Value": "<b>호숫가</b>."
+                    }
                 ],
                 "Reference": [
                     {
-                        "Type": "Synonym",
-                        "Value": "조역",
-                        "Id": "75387"
-                    },
-                    {
-                        "Type": "Reference Word",
-                        "Value": "주연<sup>1</sup>",
-                        "Id": "76979"
+                        "Type": "",
+                        "Value": "",
+                        "Id": 0
                     }
                 ]
             }
         ]
     },
     {
-        "Id": "75389",
-        "Hangul": "조연출",
-        "HomonymNumber": 0,
-        "Hanja": "助演出",
-        "TypeKr": "명사",
-        "TypeEng": "Noun",
-        "Pronounciation": "[조ː연출]",
-        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20160913/10000/08000/330538/SND000339892.mp3",
+        "Alpha": 1,
+        "Frequency": 0,
+        "Id": 72337,
+        "Hangul": "-가",
+        "HomonymNumber": 1,
+        "Hanja": "哥",
+        "TypeKr": "접사",
+        "TypeEng": "Affix",
+        "Pronounciation": "",
+        "Audio": "",
         "Level": 0,
         "Inflections": "",
         "InflectionLinks": null,
+        "Proverbs": null,
         "Senses": [
             {
-                "Translation": "assistant director",
-                "Definition": "A person who assists or works on behalf of a director in producing a film or play, or such a position.",
-                "KrDefinition": "연극이나 영화를 만들 때 연출가를 돕거나 대신하는 사람. 또는 그런 지위.",
+                "Translation": "-ga",
+                "Definition": "A suffix used to mean a person who has that family name.",
+                "KrDefinition": "‘그 성을 가진 사람’의 뜻을 더하는 접미사.",
                 "Examples": [
-                    "<b>조연출</b>의 지시.",
-                    "<b>조연출</b>이 되다.",
-                    "<b>조연출</b>을 거치다.",
-                    "<b>조연출</b>을 하다.",
-                    "<b>조연출</b>로 지내다.",
-                    "<b>조연출</b>에게 맡기다.",
-                    "촬영 도중에 사고가 나자 <b>조연출</b>이 나서서 사람들을 통제하고 일을 처리했다.",
-                    "간단한 촬영만 남겨 둔 연출가는 <b>조연출</b>에게 모든 것을 맡기고 촬영장을 떠났다.",
-                    "가: 우리 왜 촬영은 안하고 기다리고만 있는 거야?<br> 나: 글쎄, 아까 <b>조연출</b>이 일단은 대기하고 있으라고 하던데?<br>"
+                    {
+                        "Type": "김가",
+                        "Value": "<b>김가</b>"
+                    },
+                    {
+                        "Type": "박가",
+                        "Value": "<b>박가</b>"
+                    },
+                    {
+                        "Type": "이가",
+                        "Value": "<b>이가</b>"
+                    }
                 ],
                 "Reference": null
             }
         ]
     },
     {
-        "Id": "75387",
-        "Hangul": "조역",
-        "HomonymNumber": 0,
-        "Hanja": "助役",
-        "TypeKr": "명사",
-        "TypeEng": "Noun",
-        "Pronounciation": "[조ː역]",
-        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20160913/10000/08000/330533/SND000339887.mp3",
+        "Alpha": 2,
+        "Frequency": 0,
+        "Id": 72340,
+        "Hangul": "가-",
+        "HomonymNumber": 1,
+        "Hanja": "假",
+        "TypeKr": "접사",
+        "TypeEng": "Affix",
+        "Pronounciation": "",
+        "Audio": "",
         "Level": 0,
         "Inflections": "",
         "InflectionLinks": null,
+        "Proverbs": null,
         "Senses": [
             {
-                "Translation": "supporting role; assistant",
-                "Definition": "The act of helping someone with his/her work, or such an act of help.",
-                "KrDefinition": "남의 일을 함께 하면서 도와줌. 또는 그런 일.",
+                "Translation": "ga-",
+                "Definition": "A prefix used to mean \"being fake\" or \"being temporary.\"",
+                "KrDefinition": "‘가짜의’ 또는 ‘임시의’의 뜻을 더하는 접두사.",
                 "Examples": [
-                    "<b>조역</b>을 하다.",
-                    "내가 미용실에서 하는 일은 아직 단순한 <b>조역</b>에 불과했다.",
-                    "나는 아직까지 <b>조역</b>을 하고 있어서 나만의 작품을 만들지는 못했다.",
-                    "가: 우리 공장에서 청소도 하고 <b>조역</b>을 할 아이가 하나 필요한데.<br> 나: 잠깐 일할 거면 아르바이트를 구해 보는 건 어때요?<br>"
-                ],
-                "Reference": [
                     {
-                        "Type": "Reference Word",
-                        "Value": "주역",
-                        "Id": "76978"
-                    }
-                ]
-            },
-            {
-                "Translation": "assistant",
-                "Definition": "A role as a supporter, or one who plays such a role.",
-                "KrDefinition": "일을 도와주는 역할. 또는 그런 역할을 하는 사람.",
-                "Examples": [
-                    "<b>조역</b>의 역할.",
-                    "<b>조역</b>을 두다.",
-                    "<b>조역</b>으로 근무하다.",
-                    "<b>조역</b>으로 시작하다.",
-                    "<b>조역</b>으로 일하다.",
-                    "그 사진작가는 자신의 일을 성실하게 도와줄 <b>조역</b>을 구하고 있었다.",
-                    "박 사장은 성실하게 일하는 <b>조역</b> 덕분에 일하는 것이 훨씬 수월하다며 칭찬했다.",
-                    "가: 일이 너무 많아서 나 혼자서는 도저히 이 일을 다 할 수가 없을 것 같아. 어쩌지?<br> 나: 일단 단기간만이라도 <b>조역</b>을 구해 보는 게 어때?<br>"
-                ],
-                "Reference": [
-                    {
-                        "Type": "Reference Word",
-                        "Value": "주역",
-                        "Id": "76978"
-                    }
-                ]
-            },
-            {
-                "Translation": "supporting role; supporting actor; supporting actress",
-                "Definition": "In theater or film, a supporting role or an actor/actress playing such a role.",
-                "KrDefinition": "연극이나 영화에서, 조연하는 배역. 또는 그 배우.",
-                "Examples": [
-                    "<b>조역</b>의 연기.",
-                    "<b>조역</b>이 되다.",
-                    "<b>조역</b>이 빛나다.",
-                    "<b>조역</b>을 맡다.",
-                    "<b>조역</b>으로 나오다.",
-                    "이 영화에서는 주연 배우들보다 <b>조역</b>들의 연기가 더 빛을 발했다.",
-                    "<b>조역</b>에 불과한 신인 배우가 갑자기 관심을 받으며 스타가 되었다.",
-                    "가: 또 <b>조역</b>을 맡다니 정말 하기 싫어요.<br> 나: 어떻게 처음부터 주인공을 맡을 수 있겠어.<br>"
-                ],
-                "Reference": [
-                    {
-                        "Type": "Synonym",
-                        "Value": "조연",
-                        "Id": "75388"
+                        "Type": "가건물",
+                        "Value": "<b>가건물</b>"
                     },
                     {
-                        "Type": "Reference Word",
-                        "Value": "주역",
-                        "Id": "76978"
+                        "Type": "가계약",
+                        "Value": "<b>가계약</b>"
+                    },
+                    {
+                        "Type": "가등기",
+                        "Value": "<b>가등기</b>"
+                    },
+                    {
+                        "Type": "가매장",
+                        "Value": "<b>가매장</b>"
+                    },
+                    {
+                        "Type": "가석방",
+                        "Value": "<b>가석방</b>"
                     }
-                ]
-            }
-        ]
-    },
-    {
-        "Id": "75391",
-        "Hangul": "조예",
-        "HomonymNumber": 0,
-        "Hanja": "造詣",
-        "TypeKr": "명사",
-        "TypeEng": "Noun",
-        "Pronounciation": "[조ː예]",
-        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20160913/10000/08000/330539/SND000339893.mp3",
-        "Level": 0,
-        "Inflections": "",
-        "InflectionLinks": null,
-        "Senses": [
-            {
-                "Translation": "expertise",
-                "Definition": "Rich experience or deep knowledge that one has in fields such as an academic discipline, art, technology, etc.",
-                "KrDefinition": "학문이나 예술, 기술 등의 분야에 대해 가지고 있는 많은 경험이나 깊은 지식.",
-                "Examples": [
-                    "건축에 대한 <b>조예</b>.",
-                    "문학에 대한 <b>조예</b>.",
-                    "미술에 대한 <b>조예</b>.",
-                    "음악에 대한 <b>조예</b>.",
-                    "학문에 대한 <b>조예</b>.",
-                    "<b>조예</b>가 깊다.",
-                    "<b>조예</b>가 상당하다.",
-                    "<b>조예</b>가 있다.",
-                    "지수는 비록 미술을 전공하지는 않았지만 미술에 대해 남다른 <b>조예</b>가 있었다.",
-                    "이 건물은 건축에 대한 <b>조예</b>가 깊은 전문가의 조언을 들으며 설계한 건물이다.",
-                    "가: 음악에 대해 인터뷰를 좀 해야 할 텐데 좋은 사람 없을까?<br> 나: 내가 음악에 <b>조예</b>가 상당하신 교수님을 알아. 그분께 여쭤 보자.<br>"
                 ],
                 "Reference": null
             }
         ]
     },
     {
-        "Id": "75392",
-        "Hangul": "조용조용",
-        "HomonymNumber": 0,
+        "Alpha": 3,
+        "Frequency": 0,
+        "Id": 27741,
+        "Hangul": "가",
+        "HomonymNumber": 2,
+        "Hanja": "可",
+        "TypeKr": "명사",
+        "TypeEng": "Noun",
+        "Pronounciation": "가ː",
+        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20120221/31083/SND000019786.mp3",
+        "Level": 0,
+        "Inflections": "",
+        "InflectionLinks": null,
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "be allowed",
+                "Definition": "The state in which a certain act is possible or allowed.",
+                "KrDefinition": "어떤 행동이 가능하거나 허용됨.",
+                "Examples": [
+                    {
+                        "Type": "가와 부.",
+                        "Value": "<b>가</b>와 부."
+                    },
+                    {
+                        "Type": "가를 밝히다.",
+                        "Value": "<b>가</b>를 밝히다."
+                    },
+                    {
+                        "Type": "곧 표결을 시작하오니 가인지 부인지 여부를 정해 주시기 바랍니다.",
+                        "Value": "곧 표결을 시작하오니 <b>가</b>인지 부인지 여부를 정해 주시기 바랍니다."
+                    },
+                    {
+                        "Type": "이 안건이 통과되는 것에 반대하는 사람이 적어 표가 가에 몰릴 것으로 예상된다.",
+                        "Value": "이 안건이 통과되는 것에 반대하는 사람이 적어 표가 <b>가</b>에 몰릴 것으로 예상된다."
+                    },
+                    {
+                        "Type": "가: 이 안건에 대해 가인지 부인지를 결정하셨습니까? 나: 아니요. 좀 더 신중하게 생각할 시간이 필요합니다.",
+                        "Value": "가: 이 안건에 대해 <b>가</b>인지 부인지를 결정하셨습니까?<br>나: 아니요. 좀 더 신중하게 생각할 시간이 필요합니다.<br>"
+                    },
+                    {
+                        "Type": "가가 나오다.",
+                        "Value": "<b>가</b>가 나오다."
+                    },
+                    {
+                        "Type": "가를 받다.",
+                        "Value": "<b>가</b>를 받다."
+                    },
+                    {
+                        "Type": "운동을 못 하는 지수는 체육 성적이 항상 가였다.",
+                        "Value": "운동을 못 하는 지수는 체육 성적이 항상 <b>가</b>였다."
+                    },
+                    {
+                        "Type": "민준이는 공부를 잘해서 한 번도 가를 받은 적이 없다.",
+                        "Value": "민준이는 공부를 잘해서 한 번도 <b>가</b>를 받은 적이 없다."
+                    },
+                    {
+                        "Type": "가: 네 성적표에 가도 있어? 나: 아니, 양은 두 개 있지만 가는 없어.",
+                        "Value": "가: 네 성적표에 <b>가</b>도 있어?<br>나: 아니, 양은 두 개 있지만 <b>가</b>는 없어.<br>"
+                    },
+                    {
+                        "Type": "관람 가.",
+                        "Value": "관람 <b>가</b>."
+                    },
+                    {
+                        "Type": "무이자 가.",
+                        "Value": "무이자 <b>가</b>."
+                    },
+                    {
+                        "Type": "선택 가.",
+                        "Value": "선택 <b>가</b>."
+                    },
+                    {
+                        "Type": "입장 가.",
+                        "Value": "입장 <b>가</b>."
+                    },
+                    {
+                        "Type": "입주 가.",
+                        "Value": "입주 <b>가</b>."
+                    },
+                    {
+                        "Type": "할인 가.",
+                        "Value": "할인 <b>가</b>."
+                    },
+                    {
+                        "Type": "우리 카페는 동물 입장 가입니다.",
+                        "Value": "우리 카페는 동물 입장 <b>가</b>입니다."
+                    },
+                    {
+                        "Type": "새로 지은 건물에는 '바로 입주 가'라고 써 있는 현수막이 걸려 있었다.",
+                        "Value": "새로 지은 건물에는 '바로 입주 <b>가</b>'라고 써 있는 현수막이 걸려 있었다."
+                    },
+                    {
+                        "Type": "가: 열다섯 살인데 이 영화를 볼 수 있나요? 나: 아니요, 이 영화는 십팔 세 이상 관람 가입니다.",
+                        "Value": "가: 열다섯 살인데 이 영화를 볼 수 있나요?<br>나: 아니요, 이 영화는 십팔 세 이상 관람 <b>가</b>입니다.<br>"
+                    }
+                ],
+                "Reference": [
+                    {
+                        "Type": "Antonym",
+                        "Value": "불가",
+                        "Id": 60284
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Alpha": 4,
+        "Frequency": 0,
+        "Id": 72338,
+        "Hangul": "-가",
+        "HomonymNumber": 2,
+        "Hanja": "家",
+        "TypeKr": "접사",
+        "TypeEng": "Affix",
+        "Pronounciation": "",
+        "Audio": "",
+        "Level": 2,
+        "Inflections": "",
+        "InflectionLinks": null,
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "-ga",
+                "Definition": "A suffix used to mean a person who has a certain characteristic.",
+                "KrDefinition": "‘그 특성을 지닌 사람’의 뜻을 더하는 접미사.",
+                "Examples": [
+                    {
+                        "Type": "건축가",
+                        "Value": "<b>건축가</b>"
+                    },
+                    {
+                        "Type": "공예가",
+                        "Value": "<b>공예가</b>"
+                    },
+                    {
+                        "Type": "교육가",
+                        "Value": "<b>교육가</b>"
+                    },
+                    {
+                        "Type": "도예가",
+                        "Value": "<b>도예가</b>"
+                    },
+                    {
+                        "Type": "만담가",
+                        "Value": "<b>만담가</b>"
+                    },
+                    {
+                        "Type": "만화가",
+                        "Value": "<b>만화가</b>"
+                    },
+                    {
+                        "Type": "무용가",
+                        "Value": "<b>무용가</b>"
+                    },
+                    {
+                        "Type": "문필가",
+                        "Value": "<b>문필가</b>"
+                    },
+                    {
+                        "Type": "문학가",
+                        "Value": "<b>문학가</b>"
+                    },
+                    {
+                        "Type": "미술가",
+                        "Value": "<b>미술가</b>"
+                    },
+                    {
+                        "Type": "발명가",
+                        "Value": "<b>발명가</b>"
+                    },
+                    {
+                        "Type": "번역가",
+                        "Value": "<b>번역가</b>"
+                    },
+                    {
+                        "Type": "법률가",
+                        "Value": "<b>법률가</b>"
+                    },
+                    {
+                        "Type": "비평가",
+                        "Value": "<b>비평가</b>"
+                    },
+                    {
+                        "Type": "사업가",
+                        "Value": "<b>사업가</b>"
+                    },
+                    {
+                        "Type": "사진가",
+                        "Value": "<b>사진가</b>"
+                    },
+                    {
+                        "Type": "서예가",
+                        "Value": "<b>서예가</b>"
+                    },
+                    {
+                        "Type": "성악가",
+                        "Value": "<b>성악가</b>"
+                    },
+                    {
+                        "Type": "소설가",
+                        "Value": "<b>소설가</b>"
+                    },
+                    {
+                        "Type": "수집가",
+                        "Value": "<b>수집가</b>"
+                    },
+                    {
+                        "Type": "수필가",
+                        "Value": "<b>수필가</b>"
+                    },
+                    {
+                        "Type": "안무가",
+                        "Value": "<b>안무가</b>"
+                    },
+                    {
+                        "Type": "여행가",
+                        "Value": "<b>여행가</b>"
+                    },
+                    {
+                        "Type": "역사가",
+                        "Value": "<b>역사가</b>"
+                    },
+                    {
+                        "Type": "역술가",
+                        "Value": "<b>역술가</b>"
+                    },
+                    {
+                        "Type": "연구가",
+                        "Value": "<b>연구가</b>"
+                    },
+                    {
+                        "Type": "연주가",
+                        "Value": "<b>연주가</b>"
+                    },
+                    {
+                        "Type": "연출가",
+                        "Value": "<b>연출가</b>"
+                    },
+                    {
+                        "Type": "예술가",
+                        "Value": "<b>예술가</b>"
+                    },
+                    {
+                        "Type": "예언가",
+                        "Value": "<b>예언가</b>"
+                    },
+                    {
+                        "Type": "은행가",
+                        "Value": "<b>은행가</b>"
+                    },
+                    {
+                        "Type": "음악가",
+                        "Value": "<b>음악가</b>"
+                    },
+                    {
+                        "Type": "작곡가",
+                        "Value": "<b>작곡가</b>"
+                    },
+                    {
+                        "Type": "작명가",
+                        "Value": "<b>작명가</b>"
+                    },
+                    {
+                        "Type": "작사가",
+                        "Value": "<b>작사가</b>"
+                    },
+                    {
+                        "Type": "저술가",
+                        "Value": "<b>저술가</b>"
+                    },
+                    {
+                        "Type": "정치가",
+                        "Value": "<b>정치가</b>"
+                    },
+                    {
+                        "Type": "조각가",
+                        "Value": "<b>조각가</b>"
+                    },
+                    {
+                        "Type": "철학가",
+                        "Value": "<b>철학가</b>"
+                    },
+                    {
+                        "Type": "탐험가",
+                        "Value": "<b>탐험가</b>"
+                    },
+                    {
+                        "Type": "투자가",
+                        "Value": "<b>투자가</b>"
+                    },
+                    {
+                        "Type": "평론가",
+                        "Value": "<b>평론가</b>"
+                    },
+                    {
+                        "Type": "행정가",
+                        "Value": "<b>행정가</b>"
+                    },
+                    {
+                        "Type": "명필가",
+                        "Value": "<b>명필가</b>"
+                    },
+                    {
+                        "Type": "문장가",
+                        "Value": "<b>문장가</b>"
+                    },
+                    {
+                        "Type": "분석가",
+                        "Value": "<b>분석가</b>"
+                    },
+                    {
+                        "Type": "산문가",
+                        "Value": "<b>산문가</b>"
+                    },
+                    {
+                        "Type": "숙련가",
+                        "Value": "<b>숙련가</b>"
+                    },
+                    {
+                        "Type": "웅변가",
+                        "Value": "<b>웅변가</b>"
+                    },
+                    {
+                        "Type": "전문가",
+                        "Value": "<b>전문가</b>"
+                    },
+                    {
+                        "Type": "전략가",
+                        "Value": "<b>전략가</b>"
+                    },
+                    {
+                        "Type": "전술가",
+                        "Value": "<b>전술가</b>"
+                    },
+                    {
+                        "Type": "자본가",
+                        "Value": "<b>자본가</b>"
+                    },
+                    {
+                        "Type": "자산가",
+                        "Value": "<b>자산가</b>"
+                    },
+                    {
+                        "Type": "재력가",
+                        "Value": "<b>재력가</b>"
+                    },
+                    {
+                        "Type": "재산가",
+                        "Value": "<b>재산가</b>"
+                    },
+                    {
+                        "Type": "공처가",
+                        "Value": "<b>공처가</b>"
+                    },
+                    {
+                        "Type": "대식가",
+                        "Value": "<b>대식가</b>"
+                    },
+                    {
+                        "Type": "덕망가",
+                        "Value": "<b>덕망가</b>"
+                    },
+                    {
+                        "Type": "독지가",
+                        "Value": "<b>독지가</b>"
+                    },
+                    {
+                        "Type": "명망가",
+                        "Value": "<b>명망가</b>"
+                    },
+                    {
+                        "Type": "모험가",
+                        "Value": "<b>모험가</b>"
+                    },
+                    {
+                        "Type": "몽상가",
+                        "Value": "<b>몽상가</b>"
+                    },
+                    {
+                        "Type": "미식가",
+                        "Value": "<b>미식가</b>"
+                    },
+                    {
+                        "Type": "사상가",
+                        "Value": "<b>사상가</b>"
+                    },
+                    {
+                        "Type": "선동가",
+                        "Value": "<b>선동가</b>"
+                    },
+                    {
+                        "Type": "식도락가",
+                        "Value": "<b>식도락가</b>"
+                    },
+                    {
+                        "Type": "실천가",
+                        "Value": "<b>실천가</b>"
+                    },
+                    {
+                        "Type": "애주가",
+                        "Value": "<b>애주가</b>"
+                    },
+                    {
+                        "Type": "애처가",
+                        "Value": "<b>애처가</b>"
+                    },
+                    {
+                        "Type": "운동가",
+                        "Value": "<b>운동가</b>"
+                    },
+                    {
+                        "Type": "자선가",
+                        "Value": "<b>자선가</b>"
+                    },
+                    {
+                        "Type": "호사가",
+                        "Value": "<b>호사가</b>"
+                    },
+                    {
+                        "Type": "활동가",
+                        "Value": "<b>활동가</b>"
+                    }
+                ],
+                "Reference": null
+            }
+        ]
+    },
+    {
+        "Alpha": 5,
+        "Frequency": 0,
+        "Id": 78406,
+        "Hangul": "가-",
+        "HomonymNumber": 2,
         "Hanja": "",
+        "TypeKr": "",
+        "TypeEng": "",
+        "Pronounciation": "",
+        "Audio": "",
+        "Level": 0,
+        "Inflections": "(가고, 가는데, 가, 가서, 가니, 가면, 간, 가는, 갈, 갑니다, 갔다, 가라)→",
+        "InflectionLinks": [
+            {
+                "Id": 27500,
+                "Hangul": "가다<sup>1</sup>"
+            },
+            {
+                "Id": 28764,
+                "Hangul": "가다<sup>2</sup>"
+            }
+        ],
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "",
+                "Definition": "",
+                "KrDefinition": "",
+                "Examples": null,
+                "Reference": null
+            }
+        ]
+    },
+    {
+        "Alpha": 6,
+        "Frequency": 0,
+        "Id": 66341,
+        "Hangul": "가",
+        "HomonymNumber": 3,
+        "Hanja": "",
+        "TypeKr": "조사",
+        "TypeEng": "Postpositional Particle",
+        "Pronounciation": "",
+        "Audio": "",
+        "Level": 0,
+        "Inflections": "",
+        "InflectionLinks": null,
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "ga",
+                "Definition": "A postpositional particle used to emphasize the preceding statement.",
+                "KrDefinition": "앞의 말을 강조하는 뜻을 나타내는 조사.",
+                "Examples": [
+                    {
+                        "Type": "민준이가 용돈을 다 써서 학교에서 집까지 걸어갔다.",
+                        "Value": "<b>민준이가</b> 용돈을 다 써서 학교에서 집까지 걸어갔다."
+                    },
+                    {
+                        "Type": "선글라스를 낀 남자가 아까부터 아이를 쳐다본다.",
+                        "Value": "선글라스를 낀 <b>남자가</b> 아까부터 아이를 쳐다본다."
+                    },
+                    {
+                        "Type": "물가가 점점 오르고 있다.",
+                        "Value": "<b>물가가</b> 점점 오르고 있다."
+                    },
+                    {
+                        "Type": "가: 마당에는 왜 나가려고? 나: 이모가 아직 안 들어와서 나가 보려고요.",
+                        "Value": "가: 마당에는 왜 나가려고?<br>나: <b>이모가</b> 아직 안 들어와서 나가 보려고요.<br>"
+                    },
+                    {
+                        "Type": "동생은 대학을 졸업하고 변호사가 되었다.",
+                        "Value": "동생은 대학을 졸업하고 <b>변호사가</b> 되었다."
+                    },
+                    {
+                        "Type": "이것은 내가 어제 들었던 이야기가 아니다.",
+                        "Value": "이것은 내가 어제 들었던 <b>이야기가</b>아니다."
+                    },
+                    {
+                        "Type": "부끄러움을 많이 타던 옆집 아이가 가수가 될 줄은 아무도 몰랐다.",
+                        "Value": "부끄러움을 많이 타던 옆집 아이가 <b>가수가</b>될 줄은 아무도 몰랐다."
+                    },
+                    {
+                        "Type": "가: 너는 꿈이 뭐야? 나: 저는 커서 의사가 되고 싶어요.",
+                        "Value": "가: 너는 꿈이 뭐야?<br>나: 저는 커서 <b>의사가</b> 되고 싶어요.<br>"
+                    },
+                    {
+                        "Type": "날씨가 더워서 도대체가 입맛이 없다.",
+                        "Value": "날씨가 더워서 <b>도대체가</b> 입맛이 없다."
+                    },
+                    {
+                        "Type": "지수는 입사한 지 한 달이 지났는데도 업무가 손에 익지가 않는다.",
+                        "Value": "지수는 입사한 지 한 달이 지났는데도 업무가 손에 <b>익지가</b> 않는다."
+                    },
+                    {
+                        "Type": "김 대리는 시키는 일은 잘 해내지만 어쩐지 믿음직스럽지가 못하다.",
+                        "Value": "김 대리는 시키는 일은 잘 해내지만 어쩐지 <b>믿음직스럽지가</b> 못하다."
+                    },
+                    {
+                        "Type": "가: 병원에는 무슨 일로 가니? 나: 감기에 걸렸는데 약만 먹어서는 낫지가 않아서요.",
+                        "Value": "가: 병원에는 무슨 일로 가니?<br>나: 감기에 걸렸는데 약만 먹어서는 <b>낫지가</b> 않아서요.<br>"
+                    }
+                ],
+                "Reference": [
+                    {
+                        "Type": "Reference Word",
+                        "Value": "이<sup>7</sup>",
+                        "Id": 86289
+                    },
+                    {
+                        "Type": "Reference Word",
+                        "Value": "이<sup>7</sup>",
+                        "Id": 86289
+                    },
+                    {
+                        "Type": "Reference Word",
+                        "Value": "이<sup>7</sup>",
+                        "Id": 86289
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Alpha": 7,
+        "Frequency": 0,
+        "Id": 72339,
+        "Hangul": "-가",
+        "HomonymNumber": 3,
+        "Hanja": "家",
+        "TypeKr": "접사",
+        "TypeEng": "Affix",
+        "Pronounciation": "",
+        "Audio": "",
+        "Level": 0,
+        "Inflections": "",
+        "InflectionLinks": null,
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "-ga",
+                "Definition": "A suffix used to mean a family.",
+                "KrDefinition": "‘가문’의 뜻을 더하는 접미사.",
+                "Examples": [
+                    {
+                        "Type": "명문가",
+                        "Value": "<b>명문가</b>"
+                    },
+                    {
+                        "Type": "세도가",
+                        "Value": "<b>세도가</b>"
+                    },
+                    {
+                        "Type": "세력가",
+                        "Value": "<b>세력가</b>"
+                    },
+                    {
+                        "Type": "케네디가",
+                        "Value": "<b>케네디가</b>"
+                    }
+                ],
+                "Reference": null
+            }
+        ]
+    },
+    {
+        "Alpha": 8,
+        "Frequency": 0,
+        "Id": 78407,
+        "Hangul": "가-",
+        "HomonymNumber": 3,
+        "Hanja": "",
+        "TypeKr": "",
+        "TypeEng": "",
+        "Pronounciation": "",
+        "Audio": "",
+        "Level": 0,
+        "Inflections": "(가는데, 가니, 간, 가는, 갈, 갑니다)→",
+        "InflectionLinks": [
+            {
+                "Id": 59937,
+                "Hangul": "갈다<sup>1</sup>"
+            },
+            {
+                "Id": 62334,
+                "Hangul": "갈다<sup>2</sup>"
+            },
+            {
+                "Id": 14580,
+                "Hangul": "갈다<sup>3</sup>"
+            }
+        ],
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "",
+                "Definition": "",
+                "KrDefinition": "",
+                "Examples": null,
+                "Reference": null
+            }
+        ]
+    },
+    {
+        "Alpha": 9,
+        "Frequency": 0,
+        "Id": 72341,
+        "Hangul": "-가",
+        "HomonymNumber": 4,
+        "Hanja": "街",
+        "TypeKr": "접사",
+        "TypeEng": "Affix",
+        "Pronounciation": "",
+        "Audio": "",
+        "Level": 1,
+        "Inflections": "",
+        "InflectionLinks": null,
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "-ga",
+                "Definition": "A suffix used to mean a street or a district.",
+                "KrDefinition": "‘거리’ 또는 ‘지역’의 뜻을 더하는 접미사.",
+                "Examples": [
+                    {
+                        "Type": "극장가",
+                        "Value": "<b>극장가</b>"
+                    },
+                    {
+                        "Type": "금융가",
+                        "Value": "<b>금융가</b>"
+                    },
+                    {
+                        "Type": "대학가",
+                        "Value": "<b>대학가</b>"
+                    },
+                    {
+                        "Type": "방송가",
+                        "Value": "<b>방송가</b>"
+                    },
+                    {
+                        "Type": "번화가",
+                        "Value": "<b>번화가</b>"
+                    },
+                    {
+                        "Type": "빈민가",
+                        "Value": "<b>빈민가</b>"
+                    },
+                    {
+                        "Type": "사창가",
+                        "Value": "<b>사창가</b>"
+                    },
+                    {
+                        "Type": "상점가",
+                        "Value": "<b>상점가</b>"
+                    },
+                    {
+                        "Type": "식당가",
+                        "Value": "<b>식당가</b>"
+                    },
+                    {
+                        "Type": "암흑가",
+                        "Value": "<b>암흑가</b>"
+                    },
+                    {
+                        "Type": "유흥가",
+                        "Value": "<b>유흥가</b>"
+                    },
+                    {
+                        "Type": "을지로 1가",
+                        "Value": "<b>을지로 1가</b>"
+                    },
+                    {
+                        "Type": "종로 2가",
+                        "Value": "<b>종로 2가</b>"
+                    },
+                    {
+                        "Type": "주택가",
+                        "Value": "<b>주택가</b>"
+                    },
+                    {
+                        "Type": "중심가",
+                        "Value": "<b>중심가</b>"
+                    },
+                    {
+                        "Type": "증권가",
+                        "Value": "<b>증권가</b>"
+                    },
+                    {
+                        "Type": "학원가",
+                        "Value": "<b>학원가</b>"
+                    },
+                    {
+                        "Type": "홍등가",
+                        "Value": "<b>홍등가</b>"
+                    },
+                    {
+                        "Type": "환락가",
+                        "Value": "<b>환락가</b>"
+                    }
+                ],
+                "Reference": null
+            }
+        ]
+    },
+    {
+        "Alpha": 10,
+        "Frequency": 0,
+        "Id": 72342,
+        "Hangul": "-가",
+        "HomonymNumber": 5,
+        "Hanja": "歌",
+        "TypeKr": "접사",
+        "TypeEng": "Affix",
+        "Pronounciation": "",
+        "Audio": "",
+        "Level": 0,
+        "Inflections": "",
+        "InflectionLinks": null,
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "-ga",
+                "Definition": "A suffix used to mean a song.",
+                "KrDefinition": "‘노래’의 뜻을 더하는 접미사.",
+                "Examples": [
+                    {
+                        "Type": "승전가",
+                        "Value": "<b>승전가</b>"
+                    },
+                    {
+                        "Type": "애국가",
+                        "Value": "<b>애국가</b>"
+                    },
+                    {
+                        "Type": "유행가",
+                        "Value": "<b>유행가</b>"
+                    },
+                    {
+                        "Type": "응원가",
+                        "Value": "<b>응원가</b>"
+                    },
+                    {
+                        "Type": "자장가",
+                        "Value": "<b>자장가</b>"
+                    },
+                    {
+                        "Type": "주제가",
+                        "Value": "<b>주제가</b>"
+                    },
+                    {
+                        "Type": "찬불가",
+                        "Value": "<b>찬불가</b>"
+                    },
+                    {
+                        "Type": "찬송가",
+                        "Value": "<b>찬송가</b>"
+                    },
+                    {
+                        "Type": "풍년가",
+                        "Value": "<b>풍년가</b>"
+                    }
+                ],
+                "Reference": null
+            }
+        ]
+    },
+    {
+        "Alpha": 11,
+        "Frequency": 0,
+        "Id": 72343,
+        "Hangul": "-가",
+        "HomonymNumber": 6,
+        "Hanja": "價",
+        "TypeKr": "접사",
+        "TypeEng": "Affix",
+        "Pronounciation": "",
+        "Audio": "",
+        "Level": 1,
+        "Inflections": "",
+        "InflectionLinks": null,
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "-ga",
+                "Definition": "A suffix used to mean a price.",
+                "KrDefinition": "‘값’의 뜻을 더하는 접미사.",
+                "Examples": [
+                    {
+                        "Type": "감정가",
+                        "Value": "<b>감정가</b>"
+                    },
+                    {
+                        "Type": "경매가",
+                        "Value": "<b>경매가</b>"
+                    },
+                    {
+                        "Type": "공시가",
+                        "Value": "<b>공시가</b>"
+                    },
+                    {
+                        "Type": "균일가",
+                        "Value": "<b>균일가</b>"
+                    },
+                    {
+                        "Type": "도매가",
+                        "Value": "<b>도매가</b>"
+                    },
+                    {
+                        "Type": "발행가",
+                        "Value": "<b>발행가</b>"
+                    },
+                    {
+                        "Type": "분양가",
+                        "Value": "<b>분양가</b>"
+                    },
+                    {
+                        "Type": "상한가",
+                        "Value": "<b>상한가</b>"
+                    },
+                    {
+                        "Type": "소매가",
+                        "Value": "<b>소매가</b>"
+                    },
+                    {
+                        "Type": "액면가",
+                        "Value": "<b>액면가</b>"
+                    },
+                    {
+                        "Type": "적정가",
+                        "Value": "<b>적정가</b>"
+                    },
+                    {
+                        "Type": "전세가",
+                        "Value": "<b>전세가</b>"
+                    },
+                    {
+                        "Type": "최고가",
+                        "Value": "<b>최고가</b>"
+                    },
+                    {
+                        "Type": "하한가",
+                        "Value": "<b>하한가</b>"
+                    }
+                ],
+                "Reference": null
+            }
+        ]
+    },
+    {
+        "Alpha": 12,
+        "Frequency": 0,
+        "Id": 14875,
+        "Hangul": "가가호호",
+        "HomonymNumber": 1,
+        "Hanja": "家家戶戶",
+        "TypeKr": "명사",
+        "TypeEng": "Noun",
+        "Pronounciation": "가가호호",
+        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20170223/442844/SND000020362.mp3",
+        "Level": 0,
+        "Inflections": "",
+        "InflectionLinks": null,
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "every house",
+                "Definition": "Each and every house.",
+                "KrDefinition": "한 집 한 집.",
+                "Examples": [
+                    {
+                        "Type": "가가호호를 돌다.",
+                        "Value": "<b>가가호호</b>를 돌다."
+                    },
+                    {
+                        "Type": "가가호호를 찾아다니다.",
+                        "Value": "<b>가가호호</b>를 찾아다니다."
+                    },
+                    {
+                        "Type": "가가호호를 방문하다.",
+                        "Value": "<b>가가호호</b>를 방문하다."
+                    },
+                    {
+                        "Type": "가가호호에 공급하다.",
+                        "Value": "<b>가가호호</b>에 공급하다."
+                    },
+                    {
+                        "Type": "가가호호에 배부하다.",
+                        "Value": "<b>가가호호</b>에 배부하다."
+                    },
+                    {
+                        "Type": "형은 용돈을 벌기 위해 아침마다 가가호호를 돌며 신문을 돌렸다.",
+                        "Value": "형은 용돈을 벌기 위해 아침마다 <b>가가호호</b>를 돌며 신문을 돌렸다."
+                    },
+                    {
+                        "Type": "아이들은 새해를 맞아 가가호호를 찾아 다니며 마을 어른들께 인사를 드렸다.",
+                        "Value": "아이들은 새해를 맞아 <b>가가호호</b>를 찾아 다니며 마을 어른들께 인사를 드렸다."
+                    },
+                    {
+                        "Type": "가: 이번 반상회에는 사람들이 많이들 와야 여러 가지 사항을 결정할 텐데. 나: 가가호호에 모두 전달했으니 많이 참석하겠지.",
+                        "Value": "가: 이번 반상회에는 사람들이 많이들 와야 여러 가지 사항을 결정할 텐데.<br>나: <b>가가호호</b>에 모두 전달했으니 많이 참석하겠지.<br>"
+                    }
+                ],
+                "Reference": null
+            }
+        ]
+    },
+    {
+        "Alpha": 13,
+        "Frequency": 0,
+        "Id": 14883,
+        "Hangul": "가가호호",
+        "HomonymNumber": 2,
+        "Hanja": "家家戶戶",
         "TypeKr": "부사",
         "TypeEng": "Adverb",
-        "Pronounciation": "[조용조용]",
-        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20160913/30000/26000/330540/SND000339894.mp3",
+        "Pronounciation": "가가호호",
+        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20170223/442844/SND000020362.mp3",
         "Level": 0,
         "Inflections": "",
         "InflectionLinks": null,
+        "Proverbs": null,
         "Senses": [
             {
-                "Translation": "quietly; softly",
-                "Definition": "In a manner of not being loud and very gentle in speech or behavior.",
-                "KrDefinition": "말이나 행동이 시끄럽지 않고 매우 얌전한 모양.",
+                "Translation": "from door to door",
+                "Definition": "At every house.",
+                "KrDefinition": "집집마다.",
                 "Examples": [
-                    "<b>조용조용</b> 걷다.",
-                    "<b>조용조용</b> 기도하다.",
-                    "<b>조용조용</b> 나가다.",
-                    "<b>조용조용</b> 들어가다.",
-                    "<b>조용조용</b> 말하다.",
-                    "<b>조용조용</b> 이야기하다.",
-                    "도서관에서는 발소리가 들리지 않도록 <b>조용조용</b> 걷는 것이 예의이다.",
-                    "우리는 다른 사람들에게 방해되지 않도록 <b>조용조용</b> 이야기를 나누었다.",
-                    "가: 뭘 그렇게 너희끼리 <b>조용조용</b> 귓속말을 하고 있는 거야? <br> 나: 남들이 들으면 안 되는 비밀 이야기거든.<br>"
+                    {
+                        "Type": "가가호호 돌아다니다.",
+                        "Value": "<b>가가호호</b> 돌아다니다."
+                    },
+                    {
+                        "Type": "가가호호 들르다.",
+                        "Value": "<b>가가호호</b> 들르다."
+                    },
+                    {
+                        "Type": "가가호호 방문하다.",
+                        "Value": "<b>가가호호</b> 방문하다."
+                    },
+                    {
+                        "Type": "가가호호 인사하다.",
+                        "Value": "<b>가가호호</b> 인사하다."
+                    },
+                    {
+                        "Type": "가가호호 찾아가다.",
+                        "Value": "<b>가가호호</b> 찾아가다."
+                    },
+                    {
+                        "Type": "후보들은 가가호호 돌아다니며 선거 운동을 벌였다.",
+                        "Value": "후보들은 <b>가가호호</b> 돌아다니며 선거 운동을 벌였다."
+                    },
+                    {
+                        "Type": "새로 이사 온 아저씨는 가가호호 떡을 돌리며 이웃들과 인사를 나눴다.",
+                        "Value": "새로 이사 온 아저씨는 <b>가가호호</b> 떡을 돌리며 이웃들과 인사를 나눴다."
+                    }
+                ],
+                "Reference": [
+                    {
+                        "Type": "Reference Word",
+                        "Value": "집집이",
+                        "Id": 82379
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Alpha": 14,
+        "Frequency": 0,
+        "Id": 14890,
+        "Hangul": "가감",
+        "HomonymNumber": 0,
+        "Hanja": "加減",
+        "TypeKr": "명사",
+        "TypeEng": "Noun",
+        "Pronounciation": "가감",
+        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20170223/442845/SND000020363.mp3",
+        "Level": 0,
+        "Inflections": "",
+        "InflectionLinks": null,
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "addition and subtraction; adjustment",
+                "Definition": "The act of adding or subtracting.",
+                "KrDefinition": "더하거나 뺌.",
+                "Examples": [
+                    {
+                        "Type": "내용의 가감.",
+                        "Value": "내용의 <b>가감</b>."
+                    },
+                    {
+                        "Type": "가감이 없다.",
+                        "Value": "<b>가감</b>이 없다."
+                    },
+                    {
+                        "Type": "가감을 하다.",
+                        "Value": "<b>가감</b>을 하다."
+                    },
+                    {
+                        "Type": "말을 잘하는 사람은 상황에 맞게 말을 가감을 해서 말을 한다.",
+                        "Value": "말을 잘하는 사람은 상황에 맞게 말을 <b>가감</b>을 해서 말을 한다."
+                    },
+                    {
+                        "Type": "그 드라마는 한국 사회의 현실을 가감 없이 드러냈다는 점에서 주목을 받았다.",
+                        "Value": "그 드라마는 한국 사회의 현실을 <b>가감</b> 없이 드러냈다는 점에서 주목을 받았다."
+                    }
                 ],
                 "Reference": null
             }
         ]
     },
     {
-        "Id": "58167",
-        "Hangul": "조용하다",
+        "Alpha": 15,
+        "Frequency": 0,
+        "Id": 14951,
+        "Hangul": "가감승제",
+        "HomonymNumber": 0,
+        "Hanja": "加減乘除",
+        "TypeKr": "명사",
+        "TypeEng": "Noun",
+        "Pronounciation": "가감승제",
+        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20170223/442983/SND000028186.mp3",
+        "Level": 0,
+        "Inflections": "",
+        "InflectionLinks": null,
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "addition, subtraction, multiplication and division",
+                "Definition": "Calculation of addition, subtraction, multiplication and division.",
+                "KrDefinition": "더하기, 빼기, 곱하기, 나누기의 계산.",
+                "Examples": [
+                    {
+                        "Type": "가감승제 계산.",
+                        "Value": "<b>가감승제</b> 계산."
+                    },
+                    {
+                        "Type": "가감승제 기호.",
+                        "Value": "<b>가감승제</b> 기호."
+                    },
+                    {
+                        "Type": "가감승제 문제.",
+                        "Value": "<b>가감승제</b> 문제."
+                    },
+                    {
+                        "Type": "가감승제 연산.",
+                        "Value": "<b>가감승제</b> 연산."
+                    },
+                    {
+                        "Type": "가감승제를 구하다.",
+                        "Value": "<b>가감승제</b>를 구하다."
+                    },
+                    {
+                        "Type": "가감승제를 배우다.",
+                        "Value": "<b>가감승제</b>를 배우다."
+                    },
+                    {
+                        "Type": "가감승제를 풀다.",
+                        "Value": "<b>가감승제</b>를 풀다."
+                    },
+                    {
+                        "Type": "가감승제를 갓 배우기 시작한 학생들은 수학이 재미있다고 말했다.",
+                        "Value": "<b>가감승제</b>를 갓 배우기 시작한 학생들은 수학이 재미있다고 말했다."
+                    },
+                    {
+                        "Type": "수학 선생님께서 숙제를 내주셨는데 가감승제 문제가 삼십 개나 되었다.",
+                        "Value": "수학 선생님께서 숙제를 내주셨는데 <b>가감승제</b> 문제가 삼십 개나 되었다."
+                    }
+                ],
+                "Reference": [
+                    {
+                        "Type": "Reference Word",
+                        "Value": "곱셈, 나눗셈, 덧셈, 뺄셈",
+                        "Id": 61559
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Alpha": 16,
+        "Frequency": 0,
+        "Id": 14956,
+        "Hangul": "가감하다",
+        "HomonymNumber": 0,
+        "Hanja": "加減하다",
+        "TypeKr": "동사",
+        "TypeEng": "Verb",
+        "Pronounciation": "가감하다",
+        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20120306/39478/SND000028181.mp3",
+        "Level": 0,
+        "Inflections": "",
+        "InflectionLinks": null,
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "add and subtract; adjust",
+                "Definition": "To add or subtract.",
+                "KrDefinition": "더하거나 빼다.",
+                "Examples": [
+                    {
+                        "Type": "가감한 금액.",
+                        "Value": "<b>가감한</b> 금액."
+                    },
+                    {
+                        "Type": "가감한 돈.",
+                        "Value": "<b>가감한</b> 돈."
+                    },
+                    {
+                        "Type": "말을 가감하다.",
+                        "Value": "말을 <b>가감하다</b>."
+                    },
+                    {
+                        "Type": "양념을 가감하다.",
+                        "Value": "양념을 <b>가감하다</b>."
+                    },
+                    {
+                        "Type": "월급을 가감하다.",
+                        "Value": "월급을 <b>가감하다</b>."
+                    },
+                    {
+                        "Type": "요리사는 양념을 조금씩 가감해 가면서 음식 간을 맞췄다.",
+                        "Value": "요리사는 양념을 조금씩 <b>가감해</b> 가면서 음식 간을 맞췄다."
+                    },
+                    {
+                        "Type": "똑같은 말이라도 말을 어떻게 가감하여 듣느냐에 따라 내용이 달라진다.",
+                        "Value": "똑같은 말이라도 말을 어떻게 <b>가감하여</b> 듣느냐에 따라 내용이 달라진다."
+                    }
+                ],
+                "Reference": [
+                    {
+                        "Type": "Sentence",
+                        "Value": "1이 2를 가감하다",
+                        "Id": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Alpha": 17,
+        "Frequency": 0,
+        "Id": 14965,
+        "Hangul": "가객",
+        "HomonymNumber": 0,
+        "Hanja": "歌客",
+        "TypeKr": "명사",
+        "TypeEng": "Noun",
+        "Pronounciation": "가객",
+        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20160913/50000/44000/293892/SND000303246.mp3",
+        "Level": 0,
+        "Inflections": "",
+        "InflectionLinks": null,
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "singer",
+                "Definition": "(archaic) A person who writes a poem or sings a song well.",
+                "KrDefinition": "(옛날에) 시를 잘 짓거나 노래를 잘하는 사람.",
+                "Examples": [
+                    {
+                        "Type": "조선 시대의 가객.",
+                        "Value": "조선 시대의 <b>가객</b>."
+                    },
+                    {
+                        "Type": "유명한 가객.",
+                        "Value": "유명한 <b>가객</b>."
+                    },
+                    {
+                        "Type": "이름난 가객.",
+                        "Value": "이름난 <b>가객</b>."
+                    },
+                    {
+                        "Type": "가객의 노래.",
+                        "Value": "<b>가객</b>의 노래."
+                    },
+                    {
+                        "Type": "가객이 노래하다.",
+                        "Value": "<b>가객</b>이 노래하다."
+                    },
+                    {
+                        "Type": "그들은 시조로 한 나라에 이름을 떨친 유명한 가객들이었다.",
+                        "Value": "그들은 시조로 한 나라에 이름을 떨친 유명한 <b>가객</b>들이었다."
+                    },
+                    {
+                        "Type": "조선 시대의 가객들은 집단으로 서울 주변의 명승지를 돌아다니면서 노래를 부르곤 했다.",
+                        "Value": "조선 시대의 <b>가객</b>들은 집단으로 서울 주변의 명승지를 돌아다니면서 노래를 부르곤 했다."
+                    }
+                ],
+                "Reference": null
+            }
+        ]
+    },
+    {
+        "Alpha": 18,
+        "Frequency": 0,
+        "Id": 14997,
+        "Hangul": "가건물",
+        "HomonymNumber": 0,
+        "Hanja": "假建物",
+        "TypeKr": "명사",
+        "TypeEng": "Noun",
+        "Pronounciation": "가ː건물",
+        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20160913/50000/44000/293933/SND000303287.mp3",
+        "Level": 0,
+        "Inflections": "",
+        "InflectionLinks": null,
+        "Proverbs": null,
+        "Senses": [
+            {
+                "Translation": "temporary building; makeshift building",
+                "Definition": "A building built for temporary use.",
+                "KrDefinition": "임시로 사용하기 위해 지은 건물.",
+                "Examples": [
+                    {
+                        "Type": "가건물 건축.",
+                        "Value": "<b>가건물</b> 건축."
+                    },
+                    {
+                        "Type": "가건물 창고.",
+                        "Value": "<b>가건물</b> 창고."
+                    },
+                    {
+                        "Type": "가건물을 세우다.",
+                        "Value": "<b>가건물</b>을 세우다."
+                    },
+                    {
+                        "Type": "가건물을 수리하다.",
+                        "Value": "<b>가건물</b>을 수리하다."
+                    },
+                    {
+                        "Type": "가건물을 짓다.",
+                        "Value": "<b>가건물</b>을 짓다."
+                    },
+                    {
+                        "Type": "공사장 옆에 조립식 가건물로 식당이 지어졌다.",
+                        "Value": "공사장 옆에 조립식 <b>가건물</b>로 식당이 지어졌다."
+                    },
+                    {
+                        "Type": "인부들은 공사 현장의 가건물에 전화를 설치했다.",
+                        "Value": "인부들은 공사 현장의 <b>가건물</b>에 전화를 설치했다."
+                    }
+                ],
+                "Reference": null
+            }
+        ]
+    },
+    {
+        "Alpha": 19,
+        "Frequency": 0,
+        "Id": 17287,
+        "Hangul": "가게",
         "HomonymNumber": 0,
         "Hanja": "",
-        "TypeKr": "형용사",
-        "TypeEng": "Adjective",
-        "Pronounciation": "[조용하다]",
-        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20160913/30000/26000/314713/SND000324067.mp3",
+        "TypeKr": "명사",
+        "TypeEng": "Noun",
+        "Pronounciation": "가ː게",
+        "Audio": "https://dicmedia.korean.go.kr/multimedia/multimedia_files/convert/20160913/30000/21000/295343/SND000304697.mp3",
         "Level": 3,
         "Inflections": "",
         "InflectionLinks": null,
+        "Proverbs": null,
         "Senses": [
             {
-                "Translation": "quiet",
-                "Definition": "No sound being heard",
-                "KrDefinition": "아무 소리도 들리지 않다.",
+                "Translation": "shop; store",
+                "Definition": "A place where products are displayed and sold on a small scale.",
+                "KrDefinition": "작은 규모로 물건을 펼쳐 놓고 파는 집.",
                 "Examples": [
-                    "<b>조용한</b> 교실.",
-                    "<b>조용한</b> 방.",
-                    "거리가 <b>조용하다</b>.",
-                    "방 안이 <b>조용하다</b>.",
-                    "사방이 <b>조용하다</b>.",
-                    "집이 <b>조용하다</b>.",
-                    "쥐 죽은 듯이 <b>조용하다</b>.",
-                    "사장님의 한 마디에 직원들은 쥐 죽은 듯이 <b>조용해졌다</b>.",
-                    "아침 아홉 시면 가족들이 모두 출근하고 집안이 <b>조용했다</b>.",
-                    "가: 여기는 얘기하기에 좀 시끄럽네요.<br> 나: 네, <b>조용한</b> 방으로 갑시다.<br>"
-                ],
-                "Reference": [
                     {
-                        "Type": "Sentence",
-                        "Value": "1이 조용하다",
-                        "Id": ""
-                    }
-                ]
-            },
-            {
-                "Translation": "quiet",
-                "Definition": "Restrained in speech and gentle in behavior.",
-                "KrDefinition": "말이 적고 행동이 얌전하다.",
-                "Examples": [
-                    "<b>조용한</b> 친구.",
-                    "<b>조용하게</b> 말하다.",
-                    "<b>조용하게</b> 생활하다.",
-                    "<b>조용하게</b> 일하다.",
-                    "<b>조용하게</b> 행동하다.",
-                    "성격이 <b>조용하다</b>.",
-                    "민준은 <b>조용한</b> 성격 때문에 별로 눈에 띄지 않는다.",
-                    "지수는 선생님이 묻는 말에 얌전하고 <b>조용하게</b> 대답했다.",
-                    "가: 김 씨가 평소에도 말썽을 많이 일으켰습니까?<br> 나: 아니에요. <b>조용한</b> 사람이었어요.<br>"
-                ],
-                "Reference": [
+                        "Type": "골동품 가게.",
+                        "Value": "골동품 <b>가게</b>."
+                    },
                     {
-                        "Type": "Sentence",
-                        "Value": "1이 조용하다",
-                        "Id": ""
-                    }
-                ]
-            },
-            {
-                "Translation": "quiet",
-                "Definition": "Peaceful without problems.",
-                "KrDefinition": "문제가 없이 평안하다.",
-                "Examples": [
-                    "<b>조용한</b> 나날.",
-                    "<b>조용한</b> 시절.",
-                    "동네가 <b>조용하다</b>.",
-                    "세상이 <b>조용하다</b>.",
-                    "집안이 <b>조용하다</b>.",
-                    "도둑이 잡힌 후 마을은 얼마 동안 큰 문제 없이 <b>조용했다</b>.",
-                    "하루도 사건 사고가 없는 날이 없으니 세상이 언제쯤 <b>조용하려나</b>.",
-                    "가: 막내가 할머니 댁에 내려가니 집안이 다 <b>조용하네요</b>.<br> 나: 그러네요, 할머니는 고생 좀 하시겠지만.<br>"
-                ],
-                "Reference": [
+                        "Type": "과일 가게.",
+                        "Value": "과일 <b>가게</b>."
+                    },
                     {
-                        "Type": "Sentence",
-                        "Value": "1이 조용하다",
-                        "Id": ""
-                    }
-                ]
-            },
-            {
-                "Translation": "calm",
-                "Definition": "Having peace of mind with emotions calmed down.",
-                "KrDefinition": "감정이 가라앉아 마음이 평안하다.",
-                "Examples": [
-                    "<b>조용한</b> 마음.",
-                    "<b>조용한</b> 모습.",
-                    "<b>조용한</b> 상태.",
-                    "어머니는 산책을 하는 동안 마음을 가라앉히고 <b>조용한</b> 상태가 되었다.",
-                    "흥분했던 아버지는 뜨거운 차를 한 잔 마시면서 <b>조용한</b> 마음을 되찾았다.",
-                    "가: 아이가 사고를 당해 힘들 텐데 민준 엄마는 어때요?<br> 나: 그동안 마음을 많이 정리했는지 <b>조용한</b> 모습이었어요.<br>"
-                ],
-                "Reference": [
+                        "Type": "과자 가게.",
+                        "Value": "과자 <b>가게</b>."
+                    },
                     {
-                        "Type": "Sentence",
-                        "Value": "1이 조용하다",
-                        "Id": ""
-                    }
-                ]
-            },
-            {
-                "Translation": "quiet",
-                "Definition": "Free and not busy.",
-                "KrDefinition": "바쁘지 않고 한가하다.",
-                "Examples": [
-                    "가게가 <b>조용하다</b>.",
-                    "공장이 <b>조용하다</b>.",
-                    "백화점이 <b>조용하다</b>.",
-                    "시장이 <b>조용하다</b>.",
-                    "작업장이 <b>조용하다</b>.",
-                    "백화점은 세일 기간인데도 손님이 별로 없이 <b>조용하다</b>.",
-                    "경제가 안 좋아 서민들이 자주 찾는 시장마저 <b>조용하다</b>.",
-                    "가: 가게가 왜 이렇게 <b>조용해요</b>?<br> 나: 아침부터 손님이 한 명도 안 드네요.<br>"
-                ],
-                "Reference": [
+                        "Type": "구두 가게.",
+                        "Value": "구두 <b>가게</b>."
+                    },
                     {
-                        "Type": "Sentence",
-                        "Value": "1이 조용하다",
-                        "Id": ""
-                    }
-                ]
-            },
-            {
-                "Translation": "quiet",
-                "Definition": "Hidden without being revealed to others.",
-                "KrDefinition": "남들에게 드러나지 않고 숨겨지다.",
-                "Examples": [
-                    "<b>조용하게</b> 가다.",
-                    "<b>조용하게</b> 떠나다.",
-                    "<b>조용하게</b> 살다.",
-                    "<b>조용하게</b> 처리하다.",
-                    "<b>조용하게</b> 하다.",
-                    "정부는 이 일이 논란이 될까 우려하여 <b>조용하게</b> 처리해 버렸다.",
-                    "민준이 <b>조용하게</b> 집을 떠나서 가족들은 다음 날까지 민준이 집을 나간 것을 몰랐다.",
-                    "가: 이 일은 되도록 <b>조용하게</b> 진행하도록 하세요.<br> 나: 네, 사람들이 눈치 채지 못하도록 조심하겠습니다.<br>"
-                ],
-                "Reference": [
+                        "Type": "국수 가게.",
+                        "Value": "국수 <b>가게</b>."
+                    },
                     {
-                        "Type": "Sentence",
-                        "Value": "1이 조용하다",
-                        "Id": ""
+                        "Type": "기름 가게.",
+                        "Value": "기름 <b>가게</b>."
+                    },
+                    {
+                        "Type": "꽃 가게.",
+                        "Value": "꽃 <b>가게</b>."
+                    },
+                    {
+                        "Type": "담배 가게.",
+                        "Value": "담배 <b>가게</b>."
+                    },
+                    {
+                        "Type": "만화 가게.",
+                        "Value": "만화 <b>가게</b>."
+                    },
+                    {
+                        "Type": "반찬 가게.",
+                        "Value": "반찬 <b>가게</b>."
+                    },
+                    {
+                        "Type": "비디오 가게.",
+                        "Value": "비디오 <b>가게</b>."
+                    },
+                    {
+                        "Type": "가까운 가게.",
+                        "Value": "가까운 <b>가게</b>."
+                    },
+                    {
+                        "Type": "비싼 가게.",
+                        "Value": "비싼 <b>가게</b>."
+                    },
+                    {
+                        "Type": "소문난 가게.",
+                        "Value": "소문난 <b>가게</b>."
+                    },
+                    {
+                        "Type": "싼 가게.",
+                        "Value": "싼 <b>가게</b>."
+                    },
+                    {
+                        "Type": "작은 가게.",
+                        "Value": "작은 <b>가게</b>."
+                    },
+                    {
+                        "Type": "조그만 가게.",
+                        "Value": "조그만 <b>가게</b>."
+                    },
+                    {
+                        "Type": "허름한 가게.",
+                        "Value": "허름한 <b>가게</b>."
+                    },
+                    {
+                        "Type": "생선 가게.",
+                        "Value": "생선 <b>가게</b>."
+                    },
+                    {
+                        "Type": "선물 가게.",
+                        "Value": "선물 <b>가게</b>."
+                    },
+                    {
+                        "Type": "식료품 가게.",
+                        "Value": "식료품 <b>가게</b>."
+                    },
+                    {
+                        "Type": "야채 가게.",
+                        "Value": "야채 <b>가게</b>."
+                    },
+                    {
+                        "Type": "옷 가게.",
+                        "Value": "옷 <b>가게</b>."
+                    },
+                    {
+                        "Type": "장난감 가게.",
+                        "Value": "장난감 <b>가게</b>."
+                    },
+                    {
+                        "Type": "채소 가게.",
+                        "Value": "채소 <b>가게</b>."
+                    },
+                    {
+                        "Type": "책 가게.",
+                        "Value": "책 <b>가게</b>."
+                    },
+                    {
+                        "Type": "화장품 가게.",
+                        "Value": "화장품 <b>가게</b>."
+                    },
+                    {
+                        "Type": "가게 간판.",
+                        "Value": "<b>가게</b> 간판."
+                    },
+                    {
+                        "Type": "가게 문.",
+                        "Value": "<b>가게</b> 문."
+                    },
+                    {
+                        "Type": "가게 손님.",
+                        "Value": "<b>가게</b> 손님."
+                    },
+                    {
+                        "Type": "가게 아저씨.",
+                        "Value": "<b>가게</b> 아저씨."
+                    },
+                    {
+                        "Type": "가게 아줌마.",
+                        "Value": "<b>가게</b> 아줌마."
+                    },
+                    {
+                        "Type": "가게 안.",
+                        "Value": "<b>가게</b> 안."
+                    },
+                    {
+                        "Type": "가게 앞.",
+                        "Value": "<b>가게</b> 앞."
+                    },
+                    {
+                        "Type": "가게 옆.",
+                        "Value": "<b>가게</b> 옆."
+                    },
+                    {
+                        "Type": "가게 일.",
+                        "Value": "<b>가게</b> 일."
+                    },
+                    {
+                        "Type": "가게 자리.",
+                        "Value": "<b>가게</b> 자리."
+                    },
+                    {
+                        "Type": "가게 주인.",
+                        "Value": "<b>가게</b> 주인."
+                    },
+                    {
+                        "Type": "가게 터.",
+                        "Value": "<b>가게</b> 터."
+                    },
+                    {
+                        "Type": "가게를 내다.",
+                        "Value": "<b>가게</b>를 내다."
+                    },
+                    {
+                        "Type": "가게를 닫다.",
+                        "Value": "<b>가게</b>를 닫다."
+                    },
+                    {
+                        "Type": "가게를 보다.",
+                        "Value": "<b>가게</b>를 보다."
+                    },
+                    {
+                        "Type": "가게를 비우다.",
+                        "Value": "<b>가게</b>를 비우다."
+                    },
+                    {
+                        "Type": "가게를 열다.",
+                        "Value": "<b>가게</b>를 열다."
+                    },
+                    {
+                        "Type": "가게를 운영하다.",
+                        "Value": "<b>가게</b>를 운영하다."
+                    },
+                    {
+                        "Type": "가게를 차리다.",
+                        "Value": "<b>가게</b>를 차리다."
+                    },
+                    {
+                        "Type": "가게를 찾다.",
+                        "Value": "<b>가게</b>를 찾다."
+                    },
+                    {
+                        "Type": "가게를 하다.",
+                        "Value": "<b>가게</b>를 하다."
+                    },
+                    {
+                        "Type": "가게에 가다.",
+                        "Value": "<b>가게</b>에 가다."
+                    },
+                    {
+                        "Type": "가게에 들르다.",
+                        "Value": "<b>가게</b>에 들르다."
+                    },
+                    {
+                        "Type": "가게에 들어가다.",
+                        "Value": "<b>가게</b>에 들어가다."
+                    },
+                    {
+                        "Type": "가게에 오다.",
+                        "Value": "<b>가게</b>에 오다."
+                    },
+                    {
+                        "Type": "윗동네의 야채 가게는 신선한 야채들을 싼값에 팔아서 손님이 매우 많다.",
+                        "Value": "윗동네의 야채 <b>가게</b>는 신선한 야채들을 싼값에 팔아서 손님이 매우 많다."
+                    },
+                    {
+                        "Type": "동네 신발 가게에는 마음에 드는 신발이 없어 나는 결국 백화점에까지 갔다.",
+                        "Value": "동네 신발 <b>가게</b>에는 마음에 드는 신발이 없어 나는 결국 백화점에까지 갔다."
+                    },
+                    {
+                        "Type": "가: 여보. 오늘은 장사가 안 되니 가게 문 닫고 집에서 저녁 먹읍시다. 나: 그래요. 가는 길에 반찬 가게에서 저녁 반찬 좀 사 가요.",
+                        "Value": "가: 여보. 오늘은 장사가 안 되니 <b>가게</b> 문 닫고 집에서 저녁 먹읍시다.<br>나: 그래요. 가는 길에 반찬 <b>가게</b>에서 저녁 반찬 좀 사 가요.<br>"
                     }
-                ]
+                ],
+                "Reference": null
             }
         ]
     }
