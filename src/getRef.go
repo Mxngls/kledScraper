@@ -9,26 +9,29 @@ import (
 	"golang.org/x/net/html"
 )
 
-func getRef(c *html.Node, in *Result, l string) {
-	var ref ref
-	r := len(in.Senses[len(in.Senses)-1].Reference) - 1
-	if c.Data == "dl" {
-		in.Senses[len(in.Senses)-1].Reference = append(in.Senses[len(in.Senses)-1].Reference, ref)
+func getRefs(c *html.Node, r []ref, l string) {
 
-	} else if CheckClass(c, fmt.Sprintf("manyLang%s", l)) && c.Data == "span" {
-		in.Senses[len(in.Senses)-1].Reference[r].Type = strings.TrimSpace(c.FirstChild.Data)
+	if CheckClass(c, fmt.Sprintf("manyLang%s", l)) && c.Data == "span" {
+		r[len(r)-1].Type = strings.TrimSpace(c.FirstChild.Data)
 
 	} else if c.Data == "a" && CheckClass(c, "undL") {
 		re := regexp.MustCompile("[0-9]+")
 		id := c.Attr[0].Val
 		id = re.FindAllString(id, -1)[0]
-		in.Senses[len(in.Senses)-1].Reference[r].Id, _ = strconv.Atoi(id)
-		in.Senses[len(in.Senses)-1].Reference[r].Value = GetContent(c.Parent, "sup")
+		r[len(r)-1].Id, _ = strconv.Atoi(id)
+		r[len(r)-1].Value = GetContent(c.Parent, "sup")
 
-	} else if c.Data == "dd" && c.FirstChild.Type == html.TextNode {
-		in.Senses[len(in.Senses)-1].Reference[r].Value = strings.TrimSpace(c.FirstChild.Data)
+	} else if c.Data == "dd" {
+		for a := c.FirstChild; a != nil; a = a.NextSibling {
+			if a.Type == html.CommentNode || a.Data == "script" || len(strings.TrimSpace(a.Data)) == 0 {
+				continue
+			} else {
+				r[len(r)-1].Value = strings.TrimSpace(c.FirstChild.Data)
+				break
+			}
+		}
 
-	} else if c.Data == " 자세히 보기 끝 " {
+	} else if c.Data == " 자세히 보기 끝 " || c.Data == " //.idiom_adage " {
 		return
 	}
 
@@ -37,7 +40,7 @@ func getRef(c *html.Node, in *Result, l string) {
 		if e.Type == html.CommentNode || e.Data == "script" {
 			continue
 		} else {
-			getRef(e, in, l)
+			getRefs(e, r, l)
 		}
 	}
 }
