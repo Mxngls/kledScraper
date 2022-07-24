@@ -107,7 +107,7 @@ func main() {
 
 			f.Close()
 
-			fmt.Printf("\rWrote %d from %d entries to file: 'dict_FULL.JSON'; finished", currIndex, len(idArr))
+			fmt.Printf("\rWrote %d from %d entries to file: 'dict_FULL_Test.JSON'; finished", currIndex, len(idArr))
 
 			break
 		}
